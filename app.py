@@ -11,7 +11,7 @@ while True:
   
   for each_word in list_of_words:
     
-    if each_word == "hapy":
+    if each_word == "happy":
       feelings_list.append("happy")
       encouragement_list.append("Keep smiling. Life is good!")
       counter += 1
@@ -23,7 +23,27 @@ while True:
       feelings_list.append("tiring")
       encouragement_list.append("Git sum sleep boiiii!")
       counter += 1
-
+    if each_word == "hungry":
+      feelings_list.append("hungry")
+      encouragement_list.append("the canteen got your back ;)!")
+      counter += 1
+    if each_word == "heartbroken":
+      feelings_list.append("heartbroken")
+      encouragement_list.append("You can finally date someone who is better!!")
+      counter += 1
+    if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("I am here whenever you are ready to talk:)")
+      counter += 1   
+    if each_word == "sad":
+      feelings_list.append("sad")
+      encouragement_list.append("That’s never happened to me, but I can really get why you’re feeling that way.")
+      counter += 1   
+    if each_word == "empty":
+      feelings_list.append("empty")
+      encouragement_list.append("You will never succeed in killing yourself")
+      counter += 1   
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
